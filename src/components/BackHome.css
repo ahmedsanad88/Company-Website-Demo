@@ -1,0 +1,38 @@
+.backHome {
+    position: fixed;
+    overflow: hidden;
+    bottom: 5px;
+    right: 5px;
+    margin-right: 5px;
+    z-index: 100;
+    display: none;
+}
+
+.backHome .MuiIcon-root {
+    margin: 0 !important;
+}
+
+.arrowUp {
+    background-color: rgb(190, 180, 207);
+    padding: 7px 7px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.arrowUp:hover {
+    background-color: rgb(126, 120, 136);
+}
+
+
+@media (min-width: 320px) and (max-width: 800px) {
+    .backHome {
+        display: none;
+    }
+}

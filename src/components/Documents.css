@@ -1,0 +1,19 @@
+
+.main_docs {
+    width: 80%;
+    margin: 0 auto;
+    color: var(--main-text-color);
+}
+
+
+.documents .sub_documents .main_docs h2 {
+    font-size: var(--medium-font);
+    font-weight: var(--big-weight);
+    margin-bottom: 10px;
+}
+
+.documents .sub_documents .main_docs p {
+    margin-bottom: 20px;
+    font-size: var(--small-font);
+}
+

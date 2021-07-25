@@ -1,0 +1,426 @@
+.contact {
+    width: 100vw;
+    height: 70vh;
+    background-color: var(--transperent-bg);
+    background-size: cover;
+    color: var(--main-text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub_contact {
+    width: 80%;
+    height: 80%;
+    max-width: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    box-shadow: inset 0 0 13px rgba(0, 0, 0, 0.4);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.left_side {
+    flex: 0.35;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-image: url(../img/contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 60% 40%;
+    position: relative;
+}
+
+.left_side::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    background-color: var(--second-color);
+    width: 10px;
+    right: 0;
+}
+
+.content h3 {
+    color: black;
+    --medium-font: 25px;
+    font-size: var(--medium-font);
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.content p {
+    color: black;
+    font-size: var(--small-font);
+}
+
+.address,.call {
+    display: flex;
+    align-items: center;
+    margin: 5px 0px;
+    color: black;
+}
+
+.address p {
+    color: rgb(81, 81, 81);
+    margin-left: 5px;
+}
+
+.call p {
+    color: rgb(81, 81, 81);
+    margin-left: 5px;
+}
+
+.right_side form .content_action {
+    color: var(--main-text-color);
+    --medium-font: 25px;
+    font-size: var(--medium-font);
+    font-weight: var(--medium-weight);
+    padding: 10px 25px;
+    border: 1px solid hsl(340, 34%, 77%);
+    width: fit-content;
+    border-radius: 1.5rem;
+    background-color: var(--transperent-bg);
+    transform: translateY(30px);
+    cursor: pointer;
+}
+
+.right_side form .content_action:hover {
+    background-color: hsl(340, 34%, 77%);
+    border: 1px solid hsl(340, 34%, 47%);
+}
+
+.right_side {
+    flex: 0.65;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right_side form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.right_side form input,
+textarea {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 5px 10px;
+    font-size: var(--small-font);
+    font-family: inherit;
+    background-color: var(--transperent-bg);
+    outline: none;
+    border: 1px solid hsl(340, 34%, 77%);
+    border-radius: 5px;
+    color: var(--main-text-color);
+}
+
+.right_side form input:focus {
+    border: 2px solid hsl(340, 34%, 57%);
+    box-sizing: border-box;
+}
+
+.right_side form textarea {
+    resize: none;
+}
+
+.right_side form textarea:focus {
+    border: 2px solid hsl(340, 34%, 57%);
+    box-sizing: border-box;
+}
+
+
+/* mediaquery */
+
+/* @media (min-width: 768px) and (max-width: 1024px) {} */
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+/* @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {} */
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+/* @media (min-width: 481px) and (max-width: 767px) {} */
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 860px) and (orientation: landscape) {
+    .contact {
+        width: 100vw;
+        height: 100vh;
+        background-color: var(--transperent-bg);
+        background-size: cover;
+        color: var(--main-text-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sub_contact {
+        width: 80%;
+        height: 95%;
+        max-width: 1400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        box-shadow: inset 0 0 13px rgba(0, 0, 0, 0.4);
+        border-radius: 10px 10px 10px 10px;
+    }
+
+
+    .left_side {
+        margin-top: -50vh;
+    }
+
+    .left_side::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        background-color: var(--second-color);
+        height: 20px;
+        bottom: 0;
+    }
+    
+    .right_side {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right_side {
+        flex: 0.65;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right_side form {
+        padding: 0px;
+    }
+
+    .right_side {
+        flex: 0.65;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right_side form {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .right_side form input,
+    textarea {
+        margin: 3px 10px;
+    }
+
+    .right_side form textarea {
+        height: 60px;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+    .contact {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .sub_contact {
+        width: 80%;
+        height: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left_side {
+        flex: 1;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .left_side::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        background-color: var(--second-color);
+        height: 10px;
+        bottom: 0;
+    }
+
+    .content {
+        background-color: rgba(210, 210, 210, 0.564);
+    }
+
+    .content h3 {
+        color: black;
+        --medium-font: 20px;
+        font-size: var(--medium-font);
+        margin-bottom: 15px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .content p {
+        color: black;
+        font-size: var(--small-font);
+    }
+
+    .address,
+    .call {
+        display: flex;
+        align-items: center;
+        margin: 5px 0px;
+        color: black;
+    }
+
+    .address p {
+        color: black;
+        margin-left: 5px;
+    }
+
+    .call p {
+        color: black;
+        margin-left: 5px;
+    }
+
+    .right_side form .content_action {
+        transform: translateY(10px);
+        --medium-font: 15px;
+        font-size: var(--medium-font);
+        padding: 5px 15px;
+    }
+
+    .right_side {
+        flex: 1;
+        padding: 20px;
+    }
+
+    .right_side form {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    form button {
+        transform: translateY(10px);
+    }
+}
+
+@media (min-width: 0px) and (max-width: 320px) {
+    .contact {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .sub_contact {
+        width: 80%;
+        height: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .left_side {
+        flex: 1;
+        width: 100%;
+        height: 100%;
+    }
+
+    .left_side::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        background-color: var(--second-color);
+        height: 10px;
+        bottom: 0;
+    }
+
+    .content {
+        background-color: rgba(210, 210, 210, 0.564);
+    }
+
+    .content h3 {
+        color: black;
+        --medium-font: 20px;
+        font-size: var(--medium-font);
+        margin-bottom: 5px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .content p {
+        color: black;
+        font-size: var(--small-font);
+    }
+
+    .address,
+    .call {
+        display: flex;
+        align-items: center;
+        margin: 5px 0px;
+        color: black;
+    }
+
+    .right_side form .content_action {
+        color: var(--main-text-color);
+        --medium-font: 15px;
+        font-size: var(--medium-font);
+        font-weight: var(--medium-weight);
+        transform: translateY(15px);
+    }
+
+    .address p {
+        color: black;
+        margin-left: 5px;
+    }
+
+    .call p {
+        color: black;
+        margin-left: 5px;
+    }
+
+    .right_side {
+        flex: 1;
+        padding: 20px;
+    }
+
+}

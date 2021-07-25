@@ -1,0 +1,203 @@
+.project {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: var(--transperent-bg);
+    background-size: cover;
+    color: var(--main-text-color);
+    overflow: hidden;
+}
+
+.all__projects {
+    width: 100vw;
+    max-width: 1460px;
+    height: 100%;
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "one"
+    "two"
+    "three";
+    row-gap: 40px;
+}
+
+.project__one {
+    grid-area: one;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.project__oneImage img {
+    width: 700px;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.3));
+    border-radius: 10px;
+    border: 5px solid var(--fifth-color);
+}
+
+.project__oneText {
+    position: absolute;
+    font-size: var(--small-font);
+    bottom: 0px;
+    left: 0;
+    width: 50%;
+    background-color: var(--transperent-bg);
+    padding: 10px 20px;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.3));
+    text-align: justify;
+    border-radius: 5px;
+}
+
+.project__two {
+    grid-area: two;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    }
+
+.project__two .project__twoImage img {
+    width: 600px;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.3));
+    border-radius: 10px;
+    border: 5px solid var(--fifth-color);
+}
+
+.project__twoText {
+    position: absolute;
+    font-size: var(--small-font);
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    background-color: var(--transperent-bg);
+    padding: 10px 20px;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.3));
+    text-align: justify;
+    border-radius: 5px;
+}
+
+.project__three {
+    grid-area: three;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+  max-width: 480px
+*/
+
+@media (min-width: 320px) and (max-width: 1024px) {
+    .all__projects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .project__one {
+        grid-area: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .project__oneImage img {
+        width: 95%;
+        filter: drop-shadow(0 0 0px rgba(0, 0, 0, 0.3));
+        border-radius: 10px;
+        border: 5px solid var(--fifth-color);
+    }
+
+    .project__oneText {
+        position: relative;
+        font-size: var(--small-font);
+        bottom: 0;
+        left: 0;
+        width: 90%;
+        background-color: var(--transperent-bg);
+        padding: 10px 20px;
+        filter: drop-shadow(0 0 0px rgba(0, 0, 0, 0.3));
+        text-align: left;
+        border-radius: 5px;
+        margin-top: -10%;
+    }
+
+    .project__two {
+        grid-area: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .project__two .project__twoImage img {
+        width: 95%;
+        filter: drop-shadow(0 0 0px rgba(0, 0, 0, 0.3));
+        border-radius: 10px;
+        border: 5px solid var(--fifth-color);
+    }
+
+    .project__twoText {
+        position: relative;
+        font-size: var(--small-font);
+        bottom: 0;
+        right: 0;
+        width: 90%;
+        background-color: var(--transperent-bg);
+        padding: 10px 20px;
+        filter: drop-shadow(0 0 0px rgba(0, 0, 0, 0.3));
+        text-align: left;
+        border-radius: 5px;
+        margin-top: -10%;
+    }
+
+    .project__three {
+        grid-area: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 80%;
+        margin: 0 auto;
+    }
+}
