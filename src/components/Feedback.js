@@ -29,8 +29,8 @@ function Feedback() {
                             <Avatar alt="Logo" src={process.env.PUBLIC_URL + "images/customer1.jpg"} />
                         </div>
                         <div className="upper_cardRight">
-                            <div className="card_pin">
-                                <Avatar alt="Logo" src={process.env.PUBLIC_URL + "images/pins.svg"} style={{ width: "30px", height: "30px" }} />
+                            <div className="card_pin" data-aos="zoom-out" data-aos-delay="1500">
+                                <Avatar alt="pin" src={process.env.PUBLIC_URL + "images/pins.svg"} style={{ width: "30px", height: "30px" }} />
                             </div>
                             <h3>Olivia</h3>
                             <div className="rating">
@@ -52,8 +52,8 @@ function Feedback() {
                             <Avatar alt="Logo" src={process.env.PUBLIC_URL + "images/customer2.jpg"} />
                         </div>
                         <div className="upper_cardRight">
-                            <div className="card_pin">
-                                <Avatar alt="Logo" src={process.env.PUBLIC_URL + "images/pins.svg"} style={{ width: "30px", height: "30px" }} />
+                            <div className="card_pin" data-aos="zoom-out" data-aos-delay="1500">
+                                <Avatar alt="pin" src={process.env.PUBLIC_URL + "images/pins.svg"} style={{ width: "30px", height: "30px" }} />
                             </div>
                             <h3>William</h3>
                             <div className="rating">
@@ -75,8 +75,8 @@ function Feedback() {
                             <Avatar alt="Logo" src={process.env.PUBLIC_URL + "images/customer3.jpg"} />
                         </div>
                         <div className="upper_cardRight">
-                            <div className="card_pin">
-                                <Avatar alt="Logo" src={process.env.PUBLIC_URL + "images/pins.svg"} style={{ width: "30px", height: "30px" }} />
+                            <div className="card_pin" data-aos="zoom-out" data-aos-delay="1500">
+                                <Avatar alt="pin" src={process.env.PUBLIC_URL + "images/pins.svg"} style={{ width: "30px", height: "30px" }} />
                             </div>
                             <h3>Sophia</h3>
                             <div className="rating">
@@ -98,8 +98,8 @@ function Feedback() {
                             <Avatar alt="Logo" src={process.env.PUBLIC_URL + "images/customer4.jpg"} />
                         </div>
                         <div className="upper_cardRight">
-                            <div className="card_pin">
-                                <Avatar alt="Logo" src={process.env.PUBLIC_URL + "images/pins.svg"} style={{ width: "30px", height: "30px" }} />
+                            <div className="card_pin" data-aos="zoom-out" data-aos-delay="1500">
+                                <Avatar alt="pin" src={process.env.PUBLIC_URL + "images/pins.svg"} style={{ width: "30px", height: "30px" }} />
                             </div>
                             <h3>Noah</h3>
                             <div className="rating">
