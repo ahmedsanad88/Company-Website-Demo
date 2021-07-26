@@ -11,7 +11,9 @@ Clean & sleek and easy to navigate company Website making feasibility study (Mob
 
 ## Check it:
 
-https://user-images.githubusercontent.com/57454543/120302341-18335180-c2ce-11eb-85f8-0165adaa8e7f.mp4
+
+https://user-images.githubusercontent.com/57454543/126915772-d9c7da0e-53ba-4576-893c-68fda2575727.mp4
+
 
 ## Note:
 
@@ -20,12 +22,12 @@ I used Firebase to host my website demo.
 
 ## Technology Used (For Full Website)
 
-React,
+`React,
 Material UI,
 Aos,
 Firebase,
 dotenv,
-react-router-dom.
+react-router-dom.`
 
 
 ## Installation
