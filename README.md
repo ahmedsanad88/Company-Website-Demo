@@ -1,7 +1,7 @@
 
 # Company-Website-demo (Mobile-Friendly)
 
-Clean & sleek and easy to navigate company Website making feasibility study (Mobile-Friendly), Using header contain only icons with Tooltip and different sections that explain what and how the company helping customers and contact & subcribe section to engage with clients. website has two version (Dark & light mode).
+Clean & sleek and easy to navigate company Website making feasibility study (Mobile-Friendly), Using header contain only icons with Tooltip and different sections that explain what and how the company helping customers including as well contact & subscribe sections to engage with clients. the website has two versions (Dark & light mode).
 
 
 # How it's looking on live?
