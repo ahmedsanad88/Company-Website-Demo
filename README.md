@@ -20,6 +20,12 @@ https://user-images.githubusercontent.com/57454543/126915772-d9c7da0e-53ba-4576-
 I used Firebase to host my website demo.
 
 
+## Summary:
+
+The idea behind the website is a company that making feasibility studies for start-up companies and from here I started to collect all information about how the design will be to attract companies and once the page loaded they will know what this company does? after collecting all information and finished the initial design I start to build it keep in mind modern and simple and up to date. 
+In addition to the header and the footer will have six pages on the website First will be welcoming or landing page, the Second and Third will be how will help you and services, Fourth will be Clients feedback with new design Idea, the Fifth register for news & offers and the last one will be a contact page. I didn't use any back-end option as the aim of the website is the design and experience but the website is already hosted on firebase for the live check.
+
+
 ## Technology Used (For Full Website)
 
 `React,
